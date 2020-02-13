@@ -1,0 +1,16 @@
+###
+GET https://api.mdavid.cn/
+
+###
+GET https://api.mdavid.cn/http/
+
+###
+GET https://api.mdavid.cn/json/
+
+###
+GET https://api.mdavid.cn/other/streaming/
+
+###
+GET https://api.mdavid.cn/temp/
+
+###
