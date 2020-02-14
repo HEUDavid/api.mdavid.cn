@@ -27,4 +27,17 @@ echo "step5: ===================================================================
 pip install django &&
 python -m django --version &&
 
+echo "step6: ======================================================================================================> set vim" &&
+cd ~ &&
+echo "set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936" > .vimrc &&
+echo "set termencoding=utf-8" >> .vimrc &&
+echo "set encoding=utf-8" >> .vimrc &&
+echo "set cursorline" >> .vimrc &&
+echo "set showmatch" >> .vimrc &&
+echo "set tabstop=4" >> .vimrc &&
+echo "set shiftwidth=4" >> .vimrc &&
+echo "set paste" >> .vimrc &&
+echo "set ruler" >> .vimrc &&
+source .vimrc &&
+
 echo "====> end <===="
