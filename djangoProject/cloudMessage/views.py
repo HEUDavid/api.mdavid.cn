@@ -1,6 +1,7 @@
-from django.shortcuts import render
-from datetime import datetime
 import os
+from datetime import datetime
+
+from django.shortcuts import render
 
 
 # Create your views here.

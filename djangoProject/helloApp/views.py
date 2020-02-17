@@ -1,8 +1,8 @@
-from django.shortcuts import render
-from django.http import HttpResponse, JsonResponse, StreamingHttpResponse, FileResponse
-from django.views.decorators.http import require_http_methods
-from django.template import Template, Context
 import os
+
+from django.http import HttpResponse, JsonResponse, StreamingHttpResponse, FileResponse
+from django.template import Template, Context
+from django.views.decorators.http import require_http_methods
 
 
 # Create your views here.

@@ -17,7 +17,7 @@ json格式 dict 均使用双引号
 import 文件头部 全局变量之前
 换行 函数参数太多 缩进到括号的起始处
 命名规范
-其他 使用Pycharm自带代码格式化工具
+其他 使用Pycharm自带代码格式化工具整理代码格式 CTRL+ALT+L CTRL+ALT+O
 """
 
 
