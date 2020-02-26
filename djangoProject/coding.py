@@ -8,19 +8,5 @@
 @Desc    : 编码练习
 """
 
-
-class Solution:
-    def Fibonacci(self, n):
-        # write code here
-        if n < 0 or n > 39:
-            return None
-        dp = [0, 1]
-        for i in range(2, n + 1):
-            dp.append(dp[i - 1] + dp[i - 2])
-        return dp[n]
-
-
-if __name__ == '__main__':
-    slv = Solution()
-    res = slv.Fibonacci(5)
-    print(res)
+lst = [lambda x : i * x for i in range(4)]
+print([m(2) for m in lst])
