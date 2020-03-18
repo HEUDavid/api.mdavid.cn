@@ -24,5 +24,6 @@ urlpatterns = [
     path('other/<str:type>/', views.BaseApp.otherRes),
     path('temp/', views.BaseApp.templateAndData),
     path('index/', include('cloudMessage.urls')),
+    path('blog/', include('blog.urls')),
     path('admin/', admin.site.urls),
 ]
